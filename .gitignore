@@ -1,0 +1,15 @@
+# Qt build
+build-*/
+*.pro.user
+*.qmake.stash
+*.obj
+*.o
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.autosave
+
+# Arduino build
+*.hex
+*.elf
