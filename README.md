@@ -40,14 +40,6 @@ LuLoはArduinoを通じて輝度値を取得し、シリアル通信経由でPC�
 arduino/LuLo_CdS_Serial/LuLo_CdS_Serial.ino
 ```
 
-### 配線例
-
-| コンポーネント | ピン         | 説明          |
-| ------- | ---------- | ----------- |
-| CdSセンサ  | A0         | 輝度検出用アナログ入力 |
-| LED（任意） | D13        | 動作インジケータ    |
-| TX/RX   | USB Serial | LuLoとの通信    |
-
 ### 回路図
 
 <p align="center">
