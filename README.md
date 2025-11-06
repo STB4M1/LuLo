@@ -57,23 +57,34 @@ arduino/LuLo_CdS_Serial/LuLo_CdS_Serial.ino
 
 ```plaintext
 LuLo/
-├─ app/                  # Qtアプリ本体
+├─ app/                      # Qtアプリ本体（C++ / Qt Widgets）
 │   ├─ main.cpp
 │   ├─ mainwindow.cpp
 │   ├─ mainwindow.h
 │   ├─ mainwindow.ui
 │   ├─ LuLo.pro
+│   ├─ resource.qrc
+│   ├─ appicon.rc
 │   └─ ...
 │
-├─ arduino/              # Arduinoスケッチ（センサ制御）
+├─ arduino/                  # Arduinoスケッチ（照度センサ制御）
 │   └─ LuLo_CdS_Serial/
 │       └─ LuLo_CdS_Serial.ino
 │
-├─ images/               # README用スクリーンショット
-│   ├─ lulo_app_startup.png
-│   ├─ lulo_running_with_arduino.png
+├─ kicad/                    # 回路図・基板設計データ（KiCad 8）
+│   ├─ LuLo.kicad_pro
+│   ├─ LuLo.kicad_sch
+│   ├─ LuLo.kicad_pcb
+│   ├─ LuLo_schematic.pdf
+│   └─ LuLo_schematic.svg
 │
-└─ README.md
+├─ images/                   # READMEやドキュメント用の画像
+│   ├─ app_startup.png
+│   ├─ running_with_arduino.png
+│   └─ circuit_overview.png
+│
+├─ .gitignore                # Git追跡除外ルール
+└─ README.md                 # プロジェクト概要（このファイル）
 ```
 
 ---
