@@ -48,7 +48,7 @@ arduino/LuLo_CdS_Serial/LuLo_CdS_Serial.ino
 
 ### シリアル通信仕様
 
-* **ボーレート**：115200
+* **ボーレート**：9600
 * **送信フォーマット**：`LIGHT:<value>\n`
 
 ---
