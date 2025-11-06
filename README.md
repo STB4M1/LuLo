@@ -30,29 +30,6 @@
 
 ---
 
-## ⚙️ システム構成
-
-```
-+---------------------------+
-|         LuLo App          |
-|  (Qt 6 / C++17 / GUI)     |
-|---------------------------|
-| - シリアル通信            |
-| - データロギング          |
-| - グラフ表示              |
-| - 平均値算出              |
-+-------------+-------------+
-              |
-        USB Serial
-              |
-+-------------v-------------+
-|      Arduino Board        |
-|  (CdSセンサ / トリガ制御) |
-+---------------------------+
-```
-
----
-
 ## 🔌 Arduino連携
 
 LuLoはArduinoを通じて輝度値を取得し、シリアル通信経由でPCへ送信します。
@@ -74,7 +51,7 @@ arduino/LuLo_CdS_Serial/LuLo_CdS_Serial.ino
 ### 回路図
 
 <p align="center">
-  <img src="./kicad/LuLo/LuLo_schematic_trimmed.svg" width="600px" alt="LuLo Arduino schematic">
+  <img src="./kicad/LuLo/LuLo_schematic_trimmed.svg" width="400px" alt="LuLo Arduino schematic">
 </p>
 
 ### シリアル通信仕様
